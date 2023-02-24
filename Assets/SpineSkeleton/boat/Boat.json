@@ -1,0 +1,151 @@
+{
+"skeleton": {
+	"hash": "8bYXoF0WRRa5bCGRrmjO4BZMuyM",
+	"spine": "3.8.79",
+	"x": -728.49,
+	"y": 109.83,
+	"width": 1125.33,
+	"height": 660.51,
+	"images": "./image/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "boat", "parent": "root", "length": 918.08, "rotation": -173.31, "x": 76.92, "y": 357.41 },
+	{ "name": "water", "parent": "root", "length": 568.98, "rotation": 12.84, "x": -31.66, "y": 274.38 },
+	{ "name": "map-nha-hang", "parent": "root", "length": 396.91, "rotation": -173.94, "x": -20.64, "y": 197.57 },
+	{ "name": "map-nha-hang2", "parent": "root", "length": 396.91, "rotation": -173.94, "x": -20.64, "y": 197.57 }
+],
+"slots": [
+	{ "name": "shadow", "bone": "water", "attachment": "shadow" },
+	{ "name": "water", "bone": "map-nha-hang", "attachment": "water" },
+	{ "name": "water2", "bone": "map-nha-hang2", "attachment": "water" },
+	{ "name": "boat", "bone": "boat", "attachment": "boat" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"boat": {
+				"boat": {
+					"x": 232.42,
+					"y": -137.59,
+					"scaleX": 1.7845,
+					"scaleY": 1.7845,
+					"rotation": 173.31,
+					"width": 626,
+					"height": 340
+				}
+			},
+			"shadow": {
+				"shadow": {
+					"x": -51.44,
+					"y": -23.45,
+					"scaleX": 2.5386,
+					"scaleY": 2.4346,
+					"rotation": -12.84,
+					"width": 373,
+					"height": 107
+				}
+			},
+			"water": {
+				"water": {
+					"x": 63,
+					"y": -16.17,
+					"scaleX": 3.4626,
+					"scaleY": 3.4626,
+					"rotation": 173.94,
+					"width": 273,
+					"height": 54
+				}
+			},
+			"water2": {
+				"water": {
+					"x": 63,
+					"y": -16.17,
+					"scaleX": 3.4413,
+					"scaleY": 3.4413,
+					"rotation": 173.94,
+					"width": 273,
+					"height": 54
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"on": {
+		"slots": {
+			"water": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 1.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.5, "color": "ffffff00" },
+					{ "time": 1.6667, "color": "ffffffff" }
+				]
+			},
+			"water2": {
+				"color": [
+					{ "color": "ffffff24" },
+					{ "time": 0.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1.6667, "color": "ffffff24" }
+				]
+			}
+		},
+		"bones": {
+			"map-nha-hang": {
+				"translate": [
+					{ "x": -8.27, "y": 24.69 },
+					{ "time": 1.1667, "x": -1.64, "y": -37.72 },
+					{ "time": 1.5, "x": -8.27, "y": 24.69 }
+				],
+				"scale": [
+					{},
+					{ "time": 1.1667, "x": 1.058, "y": 1.428 },
+					{ "time": 1.5 }
+				]
+			},
+			"water": {
+				"translate": [
+					{ "x": 9.56, "y": 2.18 },
+					{ "time": 0.8333, "x": 1.4, "y": 12.71 },
+					{ "time": 1.6667, "x": 9.56, "y": 2.18 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.8333, "x": 0.97, "y": 1.03 },
+					{ "time": 1.6667 }
+				]
+			},
+			"boat": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "y": 18.93, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667 }
+				],
+				"scale": [
+					{ "x": 0.98, "y": 1.02 }
+				]
+			},
+			"map-nha-hang2": {
+				"translate": [
+					{ "x": -2.59, "y": -28.8 },
+					{ "time": 0.1667, "x": -1.64, "y": -37.72 },
+					{ "time": 0.5, "x": -8.27, "y": 24.69, "curve": "stepped" },
+					{ "time": 0.6667, "x": -8.27, "y": 24.69 },
+					{ "time": 1.6667, "x": -2.59, "y": -28.8 }
+				],
+				"scale": [
+					{ "x": 1.049, "y": 1.367 },
+					{ "time": 0.1667, "x": 1.058, "y": 1.428 },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6667 },
+					{ "time": 1.6667, "x": 1.049, "y": 1.367 }
+				]
+			}
+		}
+	}
+}
+}

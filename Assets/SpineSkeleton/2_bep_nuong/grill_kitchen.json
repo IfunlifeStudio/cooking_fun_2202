@@ -1,0 +1,57 @@
+{
+"skeleton": {
+	"hash": "E4LebpfgQFNEpgNUIK+MVFQ5y7A",
+	"spine": "3.8.60",
+	"x": -251.64,
+	"y": -190.06,
+	"width": 603,
+	"height": 409,
+	"images": "./image/",
+	"audio": "F:/LUC/cooking city/animation/bep-nuong/image"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "1", "bone": "root", "attachment": "1" },
+	{ "name": "2", "bone": "root" },
+	{ "name": "3", "bone": "root" },
+	{ "name": "4", "bone": "root", "attachment": "3" },
+	{ "name": "5", "bone": "root", "attachment": "5" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"1": {
+				"1": { "x": 50.36, "y": -10.06, "width": 588, "height": 360 },
+				"2": { "x": 50.36, "y": -10.06, "width": 588, "height": 360 }
+			},
+			"4": {
+				"3": { "x": 32.36, "y": 11.94, "width": 518, "height": 322 },
+				"4": { "x": 37.36, "y": 25.44, "width": 540, "height": 407 }
+			},
+			"5": {
+				"5": { "x": 49.86, "y": 66.44, "width": 603, "height": 305 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {},
+	"lv1": {
+		"slots": {
+			"4": {
+				"attachment": [
+					{ "name": "4" }
+				]
+			},
+			"1": {
+				"attachment": [
+					{ "name": "2" }
+				]
+			}
+		}
+	}
+}
+}

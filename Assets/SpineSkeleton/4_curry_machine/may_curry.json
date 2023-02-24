@@ -1,0 +1,147 @@
+{
+"skeleton": {
+	"hash": "H0OLc1oMRzkLn8RWfCUxAXTBJOA",
+	"spine": "3.8.79",
+	"x": -172.45,
+	"y": -14.58,
+	"width": 300,
+	"height": 200.11,
+	"images": "./curry/",
+	"audio": "E:/game cooking/anin/curry"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "1", "parent": "root", "length": 160.6, "rotation": 178.18, "x": -13.5, "y": 3.94 },
+	{ "name": "2", "parent": "1", "length": 127.67, "rotation": -8.12, "x": 17.31, "y": -80.26 }
+],
+"slots": [
+	{ "name": "2", "bone": "2", "attachment": "1" },
+	{ "name": "dau", "bone": "2", "attachment": "dau" },
+	{ "name": "quai_1", "bone": "2", "attachment": "quai_1" },
+	{ "name": "quai_2_2", "bone": "2", "attachment": "quai_1_2" },
+	{ "name": "quai_3_3", "bone": "2", "attachment": "quai_1_3" },
+	{ "name": "quai_3_4", "bone": "2", "attachment": "quai_1_4" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"dau": {
+				"dau": { "x": -1.63, "y": -14.98, "rotation": -170.06, "width": 244, "height": 113 }
+			}
+		}
+	},
+	{
+		"name": "1",
+		"attachments": {
+			"2": {
+				"1": { "name": "may", "x": -2.82, "y": -17.57, "rotation": -170.06, "width": 300, "height": 168 }
+			},
+			"quai_1": {
+				"quai_1": { "name": "quai_1_1", "x": 24.68, "y": 63.5, "rotation": -170.06, "width": 60, "height": 82 }
+			},
+			"quai_2_2": {
+				"quai_1_2": {
+					"name": "quai_2_2",
+					"color": "ffffff00",
+					"x": -8.83,
+					"y": -82.53,
+					"rotation": -170.06,
+					"width": 47,
+					"height": 33
+				}
+			},
+			"quai_3_3": {
+				"quai_1_3": {
+					"name": "quai_3_3",
+					"color": "ffffff00",
+					"x": -111.9,
+					"y": -41.99,
+					"rotation": -170.06,
+					"width": 32,
+					"height": 54
+				}
+			},
+			"quai_3_4": {
+				"quai_1_4": {
+					"name": "quai_3_4",
+					"color": "ffffff00",
+					"x": 115.39,
+					"y": -25.99,
+					"rotation": -170.06,
+					"width": 40,
+					"height": 52
+				}
+			}
+		}
+	},
+	{
+		"name": "2",
+		"attachments": {
+			"2": {
+				"1": { "name": "may", "x": -2.82, "y": -17.57, "rotation": -170.06, "width": 300, "height": 168 }
+			},
+			"quai_1": {
+				"quai_1": { "name": "quai_2_1", "x": 24.68, "y": 63.5, "rotation": -170.06, "width": 60, "height": 82 }
+			},
+			"quai_2_2": {
+				"quai_1_2": { "name": "quai_2_2", "x": -8.83, "y": -82.53, "rotation": -170.06, "width": 47, "height": 33 }
+			},
+			"quai_3_3": {
+				"quai_1_3": {
+					"name": "quai_3_3",
+					"color": "ffffff00",
+					"x": -111.9,
+					"y": -41.99,
+					"rotation": -170.06,
+					"width": 32,
+					"height": 54
+				}
+			},
+			"quai_3_4": {
+				"quai_1_4": {
+					"name": "quai_3_4",
+					"color": "ffffff00",
+					"x": 115.39,
+					"y": -25.99,
+					"rotation": -170.06,
+					"width": 40,
+					"height": 52
+				}
+			}
+		}
+	},
+	{
+		"name": "3",
+		"attachments": {
+			"2": {
+				"1": { "name": "may", "x": -2.82, "y": -17.57, "rotation": -170.06, "width": 300, "height": 168 }
+			},
+			"quai_1": {
+				"quai_1": { "name": "quai_3_1", "x": 24.68, "y": 63.5, "rotation": -170.06, "width": 60, "height": 82 }
+			},
+			"quai_2_2": {
+				"quai_1_2": { "name": "quai_3_2", "x": -8.83, "y": -82.53, "rotation": -170.06, "width": 47, "height": 33 }
+			},
+			"quai_3_3": {
+				"quai_1_3": { "name": "quai_3_3", "x": -111.9, "y": -41.99, "rotation": -170.06, "width": 32, "height": 54 }
+			},
+			"quai_3_4": {
+				"quai_1_4": { "name": "quai_3_4", "x": 115.39, "y": -25.99, "rotation": -170.06, "width": 40, "height": 52 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"slots": {
+			"dau": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"lv1": {}
+}
+}

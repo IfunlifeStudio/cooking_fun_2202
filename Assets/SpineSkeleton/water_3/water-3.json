@@ -1,0 +1,96 @@
+{
+"skeleton": {
+	"hash": "Q9yQ3nFoE+HbMQJvc8gOiaxGHeQ",
+	"spine": "3.8.60",
+	"x": -362.03,
+	"y": -14.39,
+	"width": 796.6,
+	"height": 58.8,
+	"images": "./image/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "song-2", "parent": "root", "length": 196.51, "rotation": -2.45, "x": 0.17, "y": 30.82 },
+	{ "name": "song-3", "parent": "root", "length": 196.51, "rotation": -2.45, "x": 0.17, "y": 30.82 }
+],
+"slots": [
+	{ "name": "song-2", "bone": "song-2", "attachment": "song-2" },
+	{ "name": "song-3", "bone": "song-3", "attachment": "song-2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"song-2": {
+				"song-2": {
+					"x": 36.74,
+					"y": -14.26,
+					"scaleX": 0.7,
+					"scaleY": 0.7,
+					"rotation": 2.45,
+					"width": 1138,
+					"height": 84
+				}
+			},
+			"song-3": {
+				"song-2": {
+					"x": 36.74,
+					"y": -14.26,
+					"scaleX": 0.7,
+					"scaleY": 0.7,
+					"rotation": 2.45,
+					"width": 1138,
+					"height": 84
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"run": {
+		"slots": {
+			"song-3": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff97" },
+					{ "time": 0.6667, "color": "ffffff25" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.6667, "color": "ffffff39" },
+					{ "time": 2.6667, "color": "ffffffff" }
+				]
+			},
+			"song-2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffff39" },
+					{ "time": 1.6667, "color": "ffffffff" },
+					{ "time": 2, "color": "ffffff97" },
+					{ "time": 2.3333, "color": "ffffff25" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"song-2": {
+				"translate": [
+					{},
+					{ "time": 0.6667, "y": -4.84 },
+					{ "time": 1.6667, "y": 5.51 },
+					{ "time": 2, "y": 6.8 },
+					{ "time": 2.6667 }
+				]
+			},
+			"song-3": {
+				"translate": [
+					{ "y": 5.51 },
+					{ "time": 0.3333, "y": 6.8 },
+					{ "time": 1 },
+					{ "time": 1.6667, "y": -4.84 },
+					{ "time": 2.6667, "y": 5.51 }
+				]
+			}
+		}
+	}
+}
+}

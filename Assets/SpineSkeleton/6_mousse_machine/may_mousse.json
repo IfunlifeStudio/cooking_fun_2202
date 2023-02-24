@@ -1,0 +1,155 @@
+{
+"skeleton": {
+	"hash": "deDN77ljCE3cg2nZWfkI7VTx1S8",
+	"spine": "3.8.86",
+	"x": -160.27,
+	"y": 26.16,
+	"width": 305,
+	"height": 200,
+	"images": "./images/",
+	"audio": "E:/game cooking/anin/may dong banh"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": 8.17, "y": 32.54 },
+	{ "name": "bone2", "parent": "bone", "x": 64.39, "y": 108.79 },
+	{ "name": "bone3", "parent": "bone2", "x": -61.04, "y": -61.38 },
+	{ "name": "bone4", "parent": "bone3", "x": -12.62, "y": 41.26 },
+	{ "name": "bone5", "parent": "bone4", "x": -21.12, "y": 5.46 }
+],
+"slots": [
+	{ "name": "may", "bone": "bone2", "attachment": "may" },
+	{ "name": "dia", "bone": "bone3", "attachment": "dia" },
+	{ "name": "banh_1", "bone": "bone4", "attachment": "banh_1_1" },
+	{ "name": "banh_1_2", "bone": "bone4", "attachment": "banh_1_2" },
+	{ "name": "fx", "bone": "bone2", "attachment": "fx" },
+	{ "name": "kinh", "bone": "bone2", "attachment": "kinh" },
+	{ "name": "cua_mo", "bone": "bone5", "color": "ffffff00", "attachment": "cua_mo" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"cua_mo": {
+				"cua_mo": { "x": 14.44, "y": 29.49, "width": 305, "height": 140 }
+			},
+			"dia": {
+				"dia": { "x": -10.8, "y": 23.21, "width": 172, "height": 100 }
+			},
+			"fx": {
+				"fx": { "x": -74.84, "y": -16.17, "width": 250, "height": 158 }
+			},
+			"kinh": {
+				"kinh": { "x": -74.34, "y": -16.17, "width": 289, "height": 198 }
+			},
+			"may": {
+				"may": { "x": -74.34, "y": -17.17, "width": 267, "height": 172 }
+			}
+		}
+	},
+	{
+		"name": "1",
+		"attachments": {
+			"banh_1": {
+				"banh_1_1": { "name": "banh_1", "x": 1.82, "y": 6.45, "width": 122, "height": 129 }
+			},
+			"banh_1_2": {
+				"banh_1_2": { "x": 1.32, "y": 11.95, "width": 127, "height": 124 }
+			}
+		}
+	},
+	{
+		"name": "2",
+		"attachments": {
+			"banh_1": {
+				"banh_1_1": { "name": "banh_2", "x": 1.82, "y": 6.45, "width": 124, "height": 134 }
+			},
+			"banh_1_2": {
+				"banh_1_2": { "name": "banh_2_2", "x": 1.32, "y": 8.92, "width": 136, "height": 131 }
+			}
+		}
+	},
+	{
+		"name": "3",
+		"attachments": {
+			"banh_1": {
+				"banh_1_1": { "name": "banh_3", "x": 1.82, "y": 6.45, "width": 125, "height": 137 }
+			},
+			"banh_1_2": {
+				"banh_1_2": { "name": "banh_3_2", "x": 1.32, "y": 9.88, "width": 132, "height": 133 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"slots": {
+			"banh_1": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"banh_1_2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"dia": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"fx": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"lv1": {
+		"slots": {
+			"fx": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.4333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone4": {
+				"scale": [
+					{ "x": 0.908, "y": 0.908 },
+					{ "time": 0.5 },
+					{ "time": 1, "x": 0.908, "y": 0.908 }
+				]
+			}
+		}
+	},
+	"lv4": {
+		"slots": {
+			"banh_1_2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"cua_mo": {
+				"color": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"fx": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"kinh": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

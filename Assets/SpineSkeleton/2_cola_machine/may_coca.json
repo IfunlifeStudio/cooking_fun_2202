@@ -1,0 +1,148 @@
+{
+"skeleton": {
+	"hash": "WMGe8Zw9ciGyrDLBHPqWbTuB1X4",
+	"spine": "3.8.60",
+	"x": -67.9,
+	"y": -48.51,
+	"width": 105.38,
+	"height": 182.88,
+	"images": "./image/",
+	"audio": "F:/LUC/cooking city/animation/coffe - 2"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "12", "parent": "root", "length": 48.39, "rotation": 107.24, "x": -1.9, "y": 4.77 },
+	{ "name": "14", "parent": "12", "rotation": 0.79, "x": 78.07, "y": 0.78 },
+	{
+		"name": "6",
+		"parent": "root",
+		"length": 93.79,
+		"rotation": -73.72,
+		"x": -44.62,
+		"y": 146.8,
+		"scaleY": 0.7345
+	}
+],
+"slots": [
+	{ "name": "mark", "bone": "root", "attachment": "mark" },
+	{ "name": "13", "bone": "14", "attachment": "13" },
+	{ "name": "4", "bone": "root" },
+	{ "name": "6", "bone": "6", "attachment": "11" },
+	{ "name": "12", "bone": "12", "attachment": "12" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"mark": {
+				"mark": {
+					"type": "clipping",
+					"end": "mark",
+					"vertexCount": 23,
+					"vertices": [ -22.14, 119.92, -28.35, 114.74, -35.9, 112.23, -41.67, 112.52, -39.03, 105.6, -49.54, 100.64, -61.37, 91.88, -68.52, 79.61, -67.06, 65.6, -62.68, 58.44, -54.65, 52.02, -28.7, -3.43, -28.46, -16.15, -29.48, -66.8, 50.51, -53.03, 21.8, 6.43, 14.18, 74.11, 18.58, 87.88, 15.35, 98.13, 59.89, 138.94, 32.49, 162.71, 0.48, 110.67, -19.03, 111.81 ],
+					"color": "ce3a3a00"
+				}
+			}
+		}
+	},
+	{
+		"name": "1",
+		"attachments": {
+			"12": {
+				"4": { "x": 45.59, "y": -7.66, "rotation": -105.73, "width": 119, "height": 199 },
+				"12": { "x": 17.86, "y": 6.39, "rotation": -105.73, "width": 99, "height": 138 }
+			},
+			"13": {
+				"13": { "x": 2.94, "y": -1.85, "rotation": -105.73, "width": 86, "height": 55 }
+			},
+			"6": {
+				"6": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"7": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"8": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"9": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"10": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"11": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 }
+			}
+		}
+	},
+	{
+		"name": "2",
+		"attachments": {
+			"12": {
+				"4": { "name": "4_2", "x": 45.59, "y": -7.66, "rotation": -105.73, "width": 117, "height": 197 },
+				"12": { "name": "12_2", "x": 17.86, "y": 6.39, "rotation": -105.73, "width": 98, "height": 136 }
+			},
+			"13": {
+				"13": { "x": 2.94, "y": -1.85, "rotation": -105.73, "width": 86, "height": 55 }
+			},
+			"6": {
+				"6": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"7": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"8": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"9": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"10": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"11": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 }
+			}
+		}
+	},
+	{
+		"name": "3",
+		"attachments": {
+			"12": {
+				"4": { "name": "4_3", "x": 45.59, "y": -7.66, "rotation": -105.73, "width": 117, "height": 197 },
+				"12": { "name": "12_3", "x": 17.86, "y": 6.39, "rotation": -105.73, "width": 98, "height": 136 }
+			},
+			"13": {
+				"13": { "x": 2.94, "y": -1.85, "rotation": -105.73, "width": 86, "height": 55 }
+			},
+			"6": {
+				"6": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"7": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"8": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"9": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"10": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 },
+				"11": { "x": 66.12, "y": 7, "rotation": 66.68, "width": 92, "height": 149 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"slots": {
+			"6": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"lv1": {
+		"slots": {
+			"6": {
+				"attachment": [
+					{ "name": "6" },
+					{ "time": 0.1, "name": "7" },
+					{ "time": 0.2, "name": "8" },
+					{ "time": 0.3, "name": "9" },
+					{ "time": 0.4, "name": "10" },
+					{ "time": 0.5, "name": "11" }
+				]
+			}
+		}
+	},
+	"lv4": {
+		"slots": {
+			"12": {
+				"attachment": [
+					{ "name": "4" }
+				]
+			},
+			"6": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

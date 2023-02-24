@@ -1,0 +1,230 @@
+-keepclassmembers class * implements java.io.Serializable {
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+
+-keepattributes Signature
+-keep class com.facebook.** {
+   *;
+}
+-keepnames class com.facebook.FacebookActivity
+-keepnames class com.facebook.CustomTabActivity
+
+-keep class com.facebook.login.Login
+
+-keep class com.appsflyer.** { *; }
+
+# Google Play Services library
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+    public static final *** NULL;
+}
+
+-keepnames class * implements android.os.Parcelable
+-keepclassmembers class * implements android.os.Parcelable {
+  public static final *** CREATOR;
+}
+
+-keep @interface android.support.annotation.Keep
+-keep @android.support.annotation.Keep class *
+-keepclasseswithmembers class * {
+  @android.support.annotation.Keep *;
+}
+
+-keep @interface com.google.android.gms.common.annotation.KeepName
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+  @com.google.android.gms.common.annotation.KeepName *;
+}
+
+-keep @interface com.google.android.gms.common.util.DynamiteApi
+-keep public @com.google.android.gms.common.util.DynamiteApi class * {
+  public *;
+}
+
+-dontwarn android.security.NetworkSecurityPolicy
+
+# IronSource SDK
+
+-keepclassmembers class com.ironsource.sdk.controller.IronSourceWebView$JSInterface {
+    public *;
+}
+-keepclassmembers class * implements android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+-keep public class com.google.android.gms.ads.** {
+   public *;
+}
+-keep class com.ironsource.adapters.** { *;
+}
+-keep class com.ironsource.unity.androidbridge.** { *;
+}
+-dontwarn com.ironsource.mediationsdk.**
+-dontwarn com.ironsource.adapters.**
+-keepattributes JavascriptInterface
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}
+
+
+# Facebook Adapter
+
+-dontwarn com.facebook.ads.internal.**
+-keeppackagenames com.facebook.*
+-keep public class com.facebook.ads.** {*;}
+-keep public class com.facebook.ads.**
+{ public protected *; }
+
+# UnityAds Adapter
+
+# Keep filenames and line numbers for stack traces
+-keepattributes SourceFile,LineNumberTable
+# Keep JavascriptInterface for WebView bridge
+-keepattributes JavascriptInterface
+# Sometimes keepattributes is not enough to keep annotations
+-keep class android.webkit.JavascriptInterface {
+   *;
+}
+# Keep all classes in Unity Ads package
+-keep class com.unity3d.ads.** {
+   *;
+}
+# Keep all classes in Unity Services package
+-keep class com.unity3d.services.** {
+   *;
+}
+-dontwarn com.google.ar.core.**
+-dontwarn com.unity3d.services.**
+-dontwarn com.ironsource.adapters.unityads.**
+
+# Keep all classes in Unity Notifications Package
+-keep class com.unity.androidnotifications.** { *;}
+
+# Google IAP
+# Play Billing Library Proguard Rules:
+
+# Keep the AIDL interface
+-keep class com.android.vending.billing.** { *; }
+
+# Keep the PBL public APIs
+-keep class com.android.billingclient.api.AcknowledgePurchaseParams { *; }
+
+-keep class com.android.billingclient.api.AcknowledgePurchaseResponseListener { *; }
+
+-keep class com.android.billingclient.api.BillingClientImpl {
+    public *;
+
+    <init>(java.lang.String);
+
+    private void initialize(android.content.Context, com.android.billingclient.api.PurchasesUpdatedListener, boolean);
+ }
+
+-keep class com.android.billingclient.api.AcknowledgePurchaseParams$Builder { *; }
+
+-keep class com.android.billingclient.api.AcknowledgePurchaseResponseListener { *; }
+
+-keep class com.android.billingclient.api.BillingClientStateListener { *; }
+
+-keep class com.android.billingclient.api.BillingFlowParams$Builder { *; }
+
+-keep class com.android.billingclient.api.BillingResult { *; }
+
+-keep class com.android.billingclient.api.ConsumeParams$Builder { *; }
+
+-keep class com.android.billingclient.api.ConsumeResponseListener { *; }
+
+-keep class com.android.billingclient.api.PriceChangeFlowParams$Builder { *; }
+
+-keep class com.android.billingclient.api.PriceChangeConfirmationListener { *; }
+
+-keep class com.android.billingclient.api.Purchase {
+    public java.lang.String getOriginalJson();
+
+    public java.lang.String getSignature();
+}
+
+-keep class com.android.billingclient.api.Purchase$PurchasesResult { *; }
+
+-keep class com.android.billingclient.api.PurchasesUpdatedListener { *; }
+
+-keep class com.android.billingclient.api.SkuDetails {
+    public java.lang.String getOriginalJson();
+}
+
+-keep class com.android.billingclient.api.SkuDetailsParams$Builder { *; }
+
+-keep class com.android.billingclient.api.SkuDetailsResponseListener { *; }
+
+# AppLovin
+
+-keepattributes Signature,InnerClasses,Exceptions,Annotation
+-keep public class com.applovin.sdk.AppLovinSdk{ *; }
+-keep public class com.applovin.sdk.AppLovin* { public protected *; }
+-keep public class com.applovin.nativeAds.AppLovin* { public protected *; }
+-keep public class com.applovin.adview.* { public protected *; }
+-keep public class com.applovin.mediation.* { public protected *; }
+-keep public class com.applovin.mediation.ads.* { public protected *; }
+-keep public class com.applovin.impl.*.AppLovin { public protected *; }
+-keep public class com.applovin.impl.**.*Impl { public protected *; }
+-keepclassmembers class com.applovin.sdk.AppLovinSdkSettings { private java.util.Map localSettings; }
+-keep class com.applovin.mediation.adapters.** { *; }
+-keep class com.applovin.mediation.adapter.**{ *; }
+
+# InMobi
+
+-keepattributes SourceFile,LineNumberTable
+-keep class com.inmobi.** { *; }
+-dontwarn com.inmobi.**
+-keep public class com.google.android.gms.**
+-dontwarn com.google.android.gms.**
+-dontwarn com.squareup.picasso.**
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient{
+     public *;
+}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info{
+     public *;
+}
+# skip the Picasso library classes
+-keep class com.squareup.picasso.** {*;}
+-dontwarn com.squareup.picasso.**
+-dontwarn com.squareup.okhttp.**
+# skip Moat classes
+-keep class com.moat.** {*;}
+-dontwarn com.moat.**
+# skip AVID classes
+-keep class com.integralads.avid.library.* {*;}
+
+# Pangle
+-keep class com.bytedance.sdk.openadsdk.*{ public *; }
+-keep class com.bytedance.sdk.** { *; }
+-keep class com.pgl.sys.ces.* {*;}
+
+# Vungle
+
+-keep class com.vungle.warren.** { *; }
+-dontwarn com.vungle.warren.error.VungleError$ErrorCode
+# Moat SDK
+-keep class com.moat.** { *; }
+-dontwarn com.moat.**
+# Okio
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+# Retrofit
+-dontwarn okio.**
+-dontwarn retrofit2.Platform$Java8
+# Gson
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn sun.misc.**
+-keep class com.google.gson.examples.android.model.** { *; }
+-keep class * implements com.google.gson.TypeAdapterFactory
+-keep class * implements com.google.gson.JsonSerializer
+-keep class * implements com.google.gson.JsonDeserializer
+# Google Android Advertising ID
+-keep class com.google.android.gms.internal.** { *; }
+-dontwarn com.google.android.gms.ads.identifier.**
+
+ # LiftOff
+
+ -keep class io.liftoff.** {*;}

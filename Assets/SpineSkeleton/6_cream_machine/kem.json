@@ -1,0 +1,225 @@
+{
+"skeleton": {
+	"hash": "UTAJbTpWgUBZXO7tLXtRLKMtQME",
+	"spine": "3.8.86",
+	"x": -58.4,
+	"y": 20.72,
+	"width": 124.52,
+	"height": 178,
+	"images": "./images/",
+	"audio": "E:/game cooking/anin/may kem"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": 5.33, "y": 56.66 },
+	{ "name": "bone2", "parent": "bone", "x": 0.86, "y": 41.44 },
+	{ "name": "bone4", "parent": "bone", "x": 6.16, "y": 86.24 },
+	{ "name": "bone3", "parent": "bone2", "x": -11.41, "y": 20.72 },
+	{ "name": "bone5", "parent": "bone2", "x": 11.19, "y": 18.25 },
+	{ "name": "bone6", "parent": "bone2", "x": -6.6, "y": 32.54 }
+],
+"slots": [
+	{ "name": "kem_1_3", "bone": "bone5", "color": "ffffff00", "attachment": "kem_1_4" },
+	{ "name": "bone2", "bone": "bone2", "attachment": "bone2" },
+	{ "name": "4", "bone": "bone4", "attachment": "9" },
+	{ "name": "kem_1_2", "bone": "bone3", "attachment": "kem_1_3" },
+	{ "name": "kem_1_4", "bone": "bone6", "color": "ffffff00", "attachment": "kem_2_4" }
+],
+"skins": [
+	{
+		"name": "1",
+		"attachments": {
+			"4": {
+				"4": { "x": -3.43, "y": -4.67, "width": 38, "height": 123 },
+				"5": { "x": -3.43, "y": -6.67, "width": 36, "height": 127 },
+				"6": { "x": -3.93, "y": -6.67, "width": 41, "height": 127 },
+				"7": { "x": 0.07, "y": -6.17, "width": 33, "height": 124 },
+				"8": { "x": -4.93, "y": -7.17, "width": 41, "height": 128 },
+				"9": { "x": -4.93, "y": -6.17, "width": 39, "height": 124 }
+			},
+			"bone2": {
+				"bone2": { "name": "kem_1_1", "x": -2.07, "y": -7.87, "width": 124, "height": 139 }
+			},
+			"kem_1_2": {
+				"kem_1_3": { "name": "kem_1_2", "x": 9.34, "y": -39.1, "width": 124, "height": 118 }
+			},
+			"kem_1_3": {
+				"kem_1_4": { "name": "kem_1_3", "x": -13.25, "y": -17.12, "width": 124, "height": 157 }
+			},
+			"kem_1_4": {
+				"kem_2_4": { "name": "kem_1_4", "x": 4.02, "y": -34.94, "width": 124, "height": 147 }
+			}
+		}
+	},
+	{
+		"name": "2",
+		"attachments": {
+			"4": {
+				"4": { "x": -3.43, "y": -4.67, "width": 38, "height": 123 },
+				"5": { "x": -3.43, "y": -6.67, "width": 36, "height": 127 },
+				"6": { "x": -3.93, "y": -6.67, "width": 41, "height": 127 },
+				"7": { "x": 0.07, "y": -6.17, "width": 33, "height": 124 },
+				"8": { "x": -4.93, "y": -7.17, "width": 41, "height": 128 },
+				"9": { "x": -4.93, "y": -6.17, "width": 39, "height": 124 }
+			},
+			"bone2": {
+				"bone2": { "name": "kem_2_1", "x": -2.07, "y": -12.11, "width": 126, "height": 142 }
+			},
+			"kem_1_2": {
+				"kem_1_3": { "name": "kem_2_2", "x": 9.34, "y": -18.21, "width": 124, "height": 69 }
+			},
+			"kem_1_3": {
+				"kem_1_4": { "name": "kem_2_3", "x": -13.25, "y": -17.12, "width": 126, "height": 170 }
+			},
+			"kem_1_4": {
+				"kem_2_4": { "x": 4.02, "y": -34.94, "width": 126, "height": 157 }
+			}
+		}
+	},
+	{
+		"name": "3",
+		"attachments": {
+			"4": {
+				"4": { "x": -3.43, "y": -4.67, "width": 38, "height": 123 },
+				"5": { "x": -3.43, "y": -6.67, "width": 36, "height": 127 },
+				"6": { "x": -3.93, "y": -6.67, "width": 41, "height": 127 },
+				"7": { "x": 0.07, "y": -6.17, "width": 33, "height": 124 },
+				"8": { "x": -4.93, "y": -7.17, "width": 41, "height": 128 },
+				"9": { "x": -4.93, "y": -6.17, "width": 39, "height": 124 }
+			},
+			"bone2": {
+				"bone2": { "name": "kem_3_1", "x": -2.07, "y": -10.53, "width": 147, "height": 151 }
+			},
+			"kem_1_2": {
+				"kem_1_3": { "name": "kem_3_2", "x": 12, "y": -21.62, "width": 144, "height": 69 }
+			},
+			"kem_1_3": {
+				"kem_1_4": { "name": "kem_3_3", "x": -13.25, "y": -17.12, "width": 148, "height": 173 }
+			},
+			"kem_1_4": {
+				"kem_2_4": { "name": "kem_3_4", "x": 4.02, "y": -34.94, "width": 149, "height": 167 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"slots": {
+			"4": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"bone2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"kem_1_2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone4": {
+				"rotate": [
+					{ "angle": -0.11 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "angle": -0.11 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "angle": -0.11 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "angle": -0.11 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "angle": -0.11 }
+				]
+			},
+			"bone5": {
+				"rotate": [
+					{ "angle": -0.11 }
+				]
+			}
+		}
+	},
+	"lv1": {
+		"slots": {
+			"4": {
+				"attachment": [
+					{ "name": "4" },
+					{ "time": 0.1, "name": "5" },
+					{ "time": 0.2, "name": "6" },
+					{ "time": 0.3, "name": "7" },
+					{ "time": 0.4, "name": "8" },
+					{ "time": 0.5, "name": "9" },
+					{ "time": 0.6, "name": "4" }
+				]
+			}
+		}
+	},
+	"lv2": {
+		"slots": {
+			"4": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"bone2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"kem_1_2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"kem_1_3": {
+				"color": [
+					{ "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "time": 1.433 }
+				]
+			}
+		}
+	},
+	"lv3": {
+		"slots": {
+			"4": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"kem_1_4": {
+				"color": [
+					{ "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"bone5": {
+				"shear": [
+					{ "time": 1.433 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,116 @@
+{
+"skeleton": {
+	"hash": "zdqt5GrbME0DtmgfhjAC5W8vGuE",
+	"spine": "3.8.60",
+	"x": -170.31,
+	"y": -91.6,
+	"width": 347.7,
+	"height": 215.35,
+	"images": "./image/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "cano", "parent": "root", "length": 198.14, "rotation": -18.43, "x": -74.83, "y": 74.76 },
+	{ "name": "shadow_2", "parent": "root", "length": 218.74, "rotation": -22.53, "x": -100.92, "y": 48.46 },
+	{ "name": "water_2", "parent": "root", "length": 204.22, "rotation": -20.56, "x": -111, "y": 20.88 },
+	{ "name": "water_3", "parent": "root", "length": 204.22, "rotation": -20.56, "x": -111, "y": 20.88 }
+],
+"slots": [
+	{ "name": "shadow_2", "bone": "shadow_2", "attachment": "shadow_2" },
+	{ "name": "water_2", "bone": "water_2", "attachment": "water_2" },
+	{ "name": "water_3", "bone": "water_3", "attachment": "water_2" },
+	{ "name": "cano", "bone": "cano", "attachment": "cano" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"water_2": {
+				"water_2": { "x": 110.07, "y": 10.32, "rotation": 20.56, "width": 332, "height": 167 }
+			},
+			"water_3": {
+				"water_2": { "x": 110.07, "y": 10.32, "rotation": 20.56, "width": 332, "height": 167 }
+			},
+			"shadow_2": {
+				"shadow_2": { "x": 108.79, "y": 2.6, "rotation": 22.53, "width": 296, "height": 141 }
+			},
+			"cano": {
+				"cano": { "x": 100.3, "y": 1.79, "rotation": 18.43, "width": 313, "height": 158 }
+			}
+		}
+	}
+],
+"animations": {
+	"on": {
+		"slots": {
+			"water_3": {
+				"color": [
+					{ "color": "ffffff3f" },
+					{ "time": 0.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 2, "color": "ffffff3f" }
+				]
+			},
+			"water_2": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.8333, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"cano": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "y": 10.31, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "x": 0.98, "y": 1.02, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "x": 0.98, "y": 1.02 }
+				]
+			},
+			"shadow_2": {
+				"scale": [
+					{},
+					{ "time": 1, "x": 0.881, "y": 1.02 },
+					{ "time": 2 }
+				]
+			},
+			"water_2": {
+				"translate": [
+					{ "x": -0.76, "y": -1.53 },
+					{ "time": 1.3333, "x": -19.86, "y": -26.55 },
+					{ "time": 1.8333, "x": -0.76, "y": -1.53 }
+				],
+				"scale": [
+					{ "x": 0.897, "y": 0.854 },
+					{ "time": 1.3333, "x": 1.042, "y": 1.416 },
+					{ "time": 1.8333, "x": 0.897, "y": 0.854 }
+				]
+			},
+			"water_3": {
+				"translate": [
+					{ "x": -15.09, "y": -20.29 },
+					{ "time": 0.3333, "x": -19.86, "y": -26.55 },
+					{ "time": 0.8333, "x": -0.76, "y": -1.53, "curve": "stepped" },
+					{ "time": 1, "x": -0.76, "y": -1.53 },
+					{ "time": 2, "x": -15.09, "y": -20.29 }
+				],
+				"scale": [
+					{ "x": 1.006, "y": 1.276 },
+					{ "time": 0.3333, "x": 1.042, "y": 1.416 },
+					{ "time": 0.8333, "x": 0.897, "y": 0.854, "curve": "stepped" },
+					{ "time": 1, "x": 0.897, "y": 0.854 },
+					{ "time": 2, "x": 1.006, "y": 1.276 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2772649778871243425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2772649778871243427}
+  - component: {fileID: 2772649778871243426}
+  m_Layer: 0
+  m_Name: XmasPassController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2772649778871243427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772649778871243425}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2772649778871243426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772649778871243425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a08aee19a1bde5f4381f18c467727777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraCanvas: {fileID: 0}
+  lockXmasPassBtn: {fileID: 0}
+  unlockXmasPassBtn: {fileID: 0}
+  xmasPassPanelPrefab: {fileID: 9026016634240389857, guid: bf51ee3abb2dfe44886d92e85c02c747,
+    type: 3}
+  battlePassPanelPrefab: {fileID: 3183611432564179567, guid: dff1c00a7dffcba43b34bbbe6a77ecd5,
+    type: 3}
+  xmasUnlockPosterPrefab: {fileID: 3750661040785826531, guid: c7ee79c8cd507834c9c45fec36461578,
+    type: 3}
+  xmasLockPosterPrefab: {fileID: 3750661040785826531, guid: 87253171bd6c6b74f9158a23bd9a6fd0,
+    type: 3}
+  countdownTxt: {fileID: 0}

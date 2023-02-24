@@ -1,0 +1,70 @@
+{
+"skeleton": {
+	"hash": "wYXzNcdYJzxHAx1gjhB4WQARYQs",
+	"spine": "3.8.79",
+	"x": -94.25,
+	"y": -30.09,
+	"width": 258.3,
+	"height": 366.59,
+	"images": "./image/",
+	"audio": "E:/game cooking/anin/curry"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "1", "parent": "root", "length": 160.6, "rotation": 178.18, "x": -13.5, "y": 3.94 }
+],
+"slots": [
+	{ "name": "1", "bone": "1", "attachment": "may_1_1" },
+	{ "name": "nap_dong", "bone": "1", "attachment": "nap_mo" }
+],
+"skins": [
+	{
+		"name": "1",
+		"attachments": {
+			"1": {
+				"may_1_1": { "name": "may_1", "x": -41.18, "y": -113.33, "rotation": -178.18, "width": 251, "height": 292 }
+			},
+			"nap_dong": {
+				"nap_dong": { "x": -116.88, "y": -250.87, "rotation": -178.18, "width": 130, "height": 133 },
+				"nap_mo": { "x": -106.35, "y": -260.07, "rotation": -178.18, "width": 126, "height": 152 }
+			}
+		}
+	},
+	{
+		"name": "2",
+		"attachments": {
+			"1": {
+				"may_1_1": { "name": "may_2", "x": -41.18, "y": -113.33, "rotation": -178.18, "width": 251, "height": 292 }
+			},
+			"nap_dong": {
+				"nap_dong": { "x": -116.88, "y": -250.87, "rotation": -178.18, "width": 130, "height": 133 },
+				"nap_mo": { "x": -106.35, "y": -260.07, "rotation": -178.18, "width": 126, "height": 152 }
+			}
+		}
+	},
+	{
+		"name": "3",
+		"attachments": {
+			"1": {
+				"may_1_1": { "name": "may_3", "x": -41.18, "y": -113.33, "rotation": -178.18, "width": 251, "height": 292 }
+			},
+			"nap_dong": {
+				"nap_dong": { "x": -116.88, "y": -250.87, "rotation": -178.18, "width": 130, "height": 133 },
+				"nap_mo": { "x": -106.35, "y": -260.07, "rotation": -178.18, "width": 126, "height": 152 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {},
+	"lv1": {
+		"slots": {
+			"nap_dong": {
+				"attachment": [
+					{ "name": "nap_dong" }
+				]
+			}
+		}
+	}
+}
+}

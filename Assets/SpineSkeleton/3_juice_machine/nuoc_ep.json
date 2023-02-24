@@ -1,0 +1,144 @@
+{
+"skeleton": {
+	"hash": "lEXRi7PFwWvOcxSiYOX3+pG3iQQ",
+	"spine": "3.8.60",
+	"x": -43.77,
+	"y": 7.67,
+	"width": 85.78,
+	"height": 127.16,
+	"images": "./image/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "3-2", "parent": "root", "length": 46.14, "rotation": 92.45, "x": 2.23, "y": 33.31 },
+	{ "name": "3", "parent": "3-2", "x": 78.35, "y": -0.59 },
+	{
+		"name": "4",
+		"parent": "root",
+		"length": 65.33,
+		"rotation": -89.08,
+		"x": -0.34,
+		"y": 128.75,
+		"scaleX": 0.9566
+	},
+	{ "name": "10", "parent": "3-2", "x": 40.03, "y": -1.15 }
+],
+"slots": [
+	{ "name": "3", "bone": "3", "attachment": "3" },
+	{ "name": "3-2", "bone": "3-2", "attachment": "3-2" },
+	{ "name": "4", "bone": "4", "color": "ffffff00", "attachment": "9" },
+	{ "name": "10", "bone": "10", "attachment": "10" }
+],
+"skins": [
+	{
+		"name": "1",
+		"attachments": {
+			"3-2": {
+				"2": { "x": 40.51, "y": -1.35, "rotation": -92.45, "width": 86, "height": 135 },
+				"3-2": { "x": 41.86, "y": 1.41, "rotation": -92.45, "width": 79, "height": 105 }
+			},
+			"10": {
+				"10": { "x": -1.08, "y": 2.56, "rotation": -92.45, "width": 79, "height": 81 }
+			},
+			"3": {
+				"3": { "x": -6.68, "y": 1.18, "rotation": -92.45, "width": 78, "height": 45 }
+			},
+			"4": {
+				"4": { "x": 45.51, "y": 4.61, "rotation": 90.29, "width": 72, "height": 102 },
+				"5": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 },
+				"6": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 },
+				"7": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 },
+				"8": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 },
+				"9": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 }
+			}
+		}
+	},
+	{
+		"name": "2",
+		"attachments": {
+			"3-2": {
+				"2": { "name": "11", "x": 40.46, "y": 2.37, "rotation": -92.45, "width": 89, "height": 132 },
+				"3-2": { "name": "13", "x": 34, "y": 2.55, "rotation": -92.45, "width": 84, "height": 119 }
+			},
+			"10": {
+				"10": { "name": "14", "x": -4.35, "y": 2.7, "rotation": -92.45, "width": 84, "height": 80 }
+			},
+			"3": {
+				"3": { "name": "15", "x": -7.28, "y": 2.63, "rotation": -92.45, "width": 78, "height": 45 }
+			},
+			"4": {
+				"4": { "x": 45.51, "y": 4.61, "rotation": 90.29, "width": 72, "height": 102 },
+				"5": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 },
+				"6": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 },
+				"7": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 },
+				"8": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 },
+				"9": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 }
+			}
+		}
+	},
+	{
+		"name": "3",
+		"attachments": {
+			"3-2": {
+				"2": { "name": "12", "x": 46.34, "y": 19.82, "rotation": -92.45, "width": 125, "height": 140 },
+				"3-2": { "name": "13", "x": 34, "y": 2.55, "rotation": -92.45, "width": 84, "height": 119 }
+			},
+			"10": {
+				"10": { "name": "14", "x": -4.35, "y": 2.7, "rotation": -92.45, "width": 84, "height": 80 }
+			},
+			"3": {
+				"3": { "name": "15", "x": -7.28, "y": 2.63, "rotation": -92.45, "width": 78, "height": 45 }
+			},
+			"4": {
+				"4": { "x": 45.51, "y": 4.61, "rotation": 90.29, "width": 72, "height": 102 },
+				"5": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 },
+				"6": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 },
+				"7": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 },
+				"8": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 },
+				"9": { "x": 45.5, "y": 4.62, "rotation": 90.29, "width": 72, "height": 102 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {},
+	"lv1": {
+		"slots": {
+			"4": {
+				"color": [
+					{ "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "4" },
+					{ "time": 0.1, "name": "5" },
+					{ "time": 0.2, "name": "6" },
+					{ "time": 0.3, "name": "7" },
+					{ "time": 0.4, "name": "8" },
+					{ "time": 0.5, "name": "9" },
+					{ "time": 0.6, "name": "4" }
+				]
+			}
+		}
+	},
+	"lv4": {
+		"slots": {
+			"3": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"10": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"3-2": {
+				"attachment": [
+					{ "name": "2" }
+				]
+			}
+		}
+	}
+}
+}

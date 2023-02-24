@@ -1,0 +1,104 @@
+{
+"skeleton": {
+	"hash": "cnLOZbxvPgmfNJrUCPgCx6t7IgQ",
+	"spine": "3.8.95",
+	"x": -69.6,
+	"y": 118.96,
+	"width": 202,
+	"height": 153,
+	"images": "./images/",
+	"audio": "E:/game cooking/anin/banh gato"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": 0.25, "y": 27.02 },
+	{ "name": "bone2", "parent": "bone", "x": 10.11, "y": 152.15 },
+	{ "name": "bone3", "parent": "bone", "x": 14.36, "y": 180.35 },
+	{ "name": "bone5", "parent": "bone", "x": 33.67, "y": 189.29 }
+],
+"slots": [
+	{ "name": "banh_1_1", "bone": "bone5", "color": "ffffff00", "attachment": "banh_1_1" },
+	{ "name": "fx", "bone": "bone3", "color": "ffffff00", "attachment": "fx" },
+	{ "name": "cua_1", "bone": "bone2", "attachment": "cua_2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fx": {
+				"fx": { "x": 12.28, "y": -11.41, "width": 193, "height": 152 }
+			}
+		}
+	},
+	{
+		"name": "1",
+		"attachments": {
+			"banh_1_1": {
+				"banh_1_1": { "x": -17.52, "y": -8.86, "width": 102, "height": 95 }
+			},
+			"cua_1": {
+				"cua_1": { "x": 18.54, "y": 14.28, "width": 199, "height": 157 },
+				"cua_2": { "x": 22.04, "y": -8.72, "width": 200, "height": 103 }
+			}
+		}
+	},
+	{
+		"name": "2",
+		"attachments": {
+			"banh_1_1": {
+				"banh_1_1": { "name": "banh_2_1", "x": -17.52, "y": -8.86, "width": 102, "height": 95 }
+			},
+			"cua_1": {
+				"cua_1": { "x": 18.54, "y": 14.28, "width": 199, "height": 157 },
+				"cua_2": { "x": 22.04, "y": -8.72, "width": 200, "height": 103 }
+			}
+		}
+	},
+	{
+		"name": "3",
+		"attachments": {
+			"banh_1_1": {
+				"banh_1_1": { "name": "banh_3_1", "x": -17.52, "y": -8.86, "width": 102, "height": 95 }
+			},
+			"cua_1": {
+				"cua_1": { "x": 18.54, "y": 14.28, "width": 199, "height": 157 },
+				"cua_2": { "x": 22.04, "y": -8.72, "width": 200, "height": 103 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {},
+	"lv1": {
+		"slots": {
+			"banh_1_1": {
+				"color": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"cua_1": {
+				"attachment": [
+					{ "name": "cua_1" }
+				]
+			},
+			"fx": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"bone5": {
+				"scale": [
+					{},
+					{ "time": 0.5333, "x": 0.871, "y": 0.871 },
+					{ "time": 1 }
+				]
+			}
+		}
+	},
+	"lv4": {},
+}
+}
